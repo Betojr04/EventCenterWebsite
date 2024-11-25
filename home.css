@@ -160,3 +160,39 @@ footer {
     padding: 10px 0;
     font-size: 0.9rem;
 }
+
+
+/* Tablet */
+@media (min-width: 768px) {
+    .hero-section {
+        height: 80vh;
+        padding: 20px;
+    }
+
+    .about-section {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .featured-sections {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .featured-sections article {
+        width: 45%;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .hero-section {
+        height: 100vh;
+        padding: 40px;
+    }
+
+    .featured-sections article {
+        width: 30%;
+    }
+}

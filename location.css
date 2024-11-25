@@ -94,3 +94,34 @@ footer {
     padding: 10px 0;
     font-size: 0.9rem;
 }
+
+/* Tablet */
+@media (min-width: 768px) {
+
+    .address-section,
+    .map-section,
+    .directions-section {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .map-section iframe {
+        height: 400px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+
+    .address-section,
+    .map-section,
+    .directions-section {
+        max-width: 1000px;
+        padding: 30px;
+    }
+
+    .map-section iframe {
+        height: 500px;
+    }
+}

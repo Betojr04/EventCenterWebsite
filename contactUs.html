@@ -5,13 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contactUs.css">
-
     <title>Document</title>
 </head>
 
 <body>
 
-    <head>
+    <header>
         <nav>
             <p>Event Center Website</p>
             <ul>
@@ -22,7 +21,31 @@
                 <li><a href="/contactUs.html">Contact</a></li>
             </ul>
         </nav>
-    </head>
+    </header>
+
+    <header class="page-header">
+        <h1>Contact Us</h1>
+        <p>We’d love to hear from you! Fill out the form below to get in touch.</p>
+    </header>
+
+    <main>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+
+            <label for="message">Message/Inquiry:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Event Center Website. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>

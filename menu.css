@@ -34,3 +34,103 @@ nav>ul>li>a {
     text-decoration: none;
     color: inherit;
 }
+
+
+.page-header {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 20px 10px;
+}
+
+.page-header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.page-header p {
+    font-size: 1.2rem;
+}
+
+/* Menu Table Styling */
+.menu-table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+
+    color: black;
+}
+
+.menu-table thead th {
+    background-color: #007bff;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.menu-table tbody td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.menu-table tbody img {
+    width: 50px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.menu-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
+
+
+@media (min-width: 768px) {
+    .menu-table {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .menu-table {
+        width: 70%;
+    }
+}
+
+
+/* Tablet */
+@media (min-width: 768px) {
+    .menu-table {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .menu-table td {
+        font-size: 1.1rem;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .menu-table {
+        width: 70%;
+        margin: 30px auto;
+    }
+
+    .menu-table td {
+        font-size: 1.2rem;
+    }
+}
