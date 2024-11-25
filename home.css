@@ -5,6 +5,14 @@ body {
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    color: #333;
+}
+
 
 /* NAV STLYINH */
 nav {
@@ -141,4 +149,14 @@ nav>ul>li>a {
 
 .cta-button:hover {
     background-color: #0056b3;
+}
+
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 10px 0;
+    font-size: 0.9rem;
 }

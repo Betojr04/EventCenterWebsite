@@ -11,7 +11,7 @@ nav {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #f8f8f8;
+    /* background-color: #f8f8f8; */
 
 }
 
@@ -37,19 +37,19 @@ nav>ul>li>a {
 
 /* HEADER */
 
-header {
+.page-header {
     text-align: center;
     background-color: #007bff;
     color: white;
     padding: 20px;
 }
 
-header h1 {
+.page-header h1 {
     font-size: 2rem;
     margin-bottom: 10px;
 }
 
-header p {
+.page-header p {
     font-size: 1.2rem;
 }
 
@@ -88,4 +88,13 @@ main {
     font-size: 1rem;
     margin: 0 auto;
     max-width: 600px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 10px 0;
+    font-size: 0.9rem;
 }
